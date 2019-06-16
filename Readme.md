@@ -1,0 +1,1 @@
+This application is to automate the process of creating a new project
