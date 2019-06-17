@@ -10,7 +10,7 @@ browser.get('http://github.com/login')
 def remove():
     python_button = browser.find_elements_by_xpath("//input[@name='login']")[0]
     python_button.send_keys(username)
-    python_button = browser.find find_elements_by_xpath("//input[@name='password']")[0]
+    python_button = browser.find_elements_by_xpath("//input[@name='password']")[0]
     python_button.send_keys(password)
     python_button = browser.find_elements_by_xpath("//input[@name='commit']")[0]
     python_button.click()
